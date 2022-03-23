@@ -6,17 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game Loop | https://github.com/sergiss/game-loop.js</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <style>
     #game {
         width: 640px;
         height: 480px;
     }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    a {
+        margin-bottom: 20px;
+        font-size: 1.5rem;
+    }
+
+    a:link {
+        text-decoration: none;
+    }
+
+    a:visited {
+        text-decoration: none;
+    }
 </style>
 
 <body>
 
     <canvas id="game"></canvas>
+    <a href="https://github.com/sergiss/game-loop.js" target="_blank"><i class="fa">&#xf09b;</i> Source Code </a>
 
     <script src="test.js" type="module"></script>
 
