@@ -71,6 +71,6 @@ const loop = new GameLoop({
     dispose: () => { // optional
 
     }
-});
+}, 60);
 
 loop.start();
